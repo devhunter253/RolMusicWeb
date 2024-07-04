@@ -94,6 +94,20 @@ section {
     margin-bottom: 20px;
 }
 
+.galeria .imagenes {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 1rem;
+}
+
+.galeria .imagenes img {
+    max-width: 500px;
+    max-height: 500px;
+    height: auto;
+    border-radius: 8px;
+}
 section h2 {
     font-size: 1.8em;
     margin-bottom: 10px;
@@ -424,6 +438,10 @@ footer a {
 
     .botones-descarga {
         gap: 5px;
+    }
+
+    .descarga ol{
+        margin: 25px;
     }
 
     main{
